@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="heading">Student Registration Form</div>
+    </header>
+    <main>
+        <form method="get">
+            <div class="inp-class custom1">
+                <label for="name">Your Name: </label>
+                <input type="text" id="name" name="Name">
+            </div>
+            <div class="inp-class custom2">
+                <label for="rollno">Your Roll Number: </label>
+                <input type="text" id="rollno" name="Roll number">
+            </div>
+            <div class="inp-class custom3">
+                <label for="dob">Your Date of Birth: </label>
+                <input type="date" id="dob" name="Date of birth">
+            </div>
+            <div class="inp-class custom4">
+                <label for="gender">Your Gender: </label><br>
+                <div class="gender" name="Gender">
+                    <input type="radio" id="male" name="gender" class="radio">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" class="radio">
+                    <label for="female">Female</label>
+                    <input type="radio" id="Other" name="gender" class="radio">
+                    <label for="male">Other</label>
+                </div>
+            </div>
+            <div class="inp-class custom5">
+                <label for="age">Your Age: </label>
+                <select id="age" name="Age">
+                    <option value="none" disabled selected>Not Selected</option>
+                    <option value="13">13</option>
+                    <option value="13">14</option>
+                    <option value="13">15</option>
+                    <option value="13">16</option>
+                    <option value="13">17</option>
+                    <option value="13">18</option>
+                    <option value="13">19</option>
+                    <option value="13">20</option>
+                    <option value="13">21</option>
+                    <option value="13">22</option>
+                </select>
+            </div>
+            <div class="inp-class custom6">
+                <label for="mail">Your E-mail: </label>
+                <input type="text" id="mail" name="E-mail" placeholder="xyz@gmail.com">
+            </div>
+            <div class="inp-class custom7">
+                <label for="password">Your Password: </label>
+                <input type="password" id="password" name="Password">
+            </div>
+            <div class="inp-class custom8">
+                <label for="password1">Confirm Your Password: </label>
+                <input type="password" id="password1" name="Password check"><br>
+            </div>
+            <div class="inp-class">
+                <label for="extra">Feedback: </label>
+                <textarea id="extra" name="feedback" placeholder="Enter your feedback" rows="3" cols="50"></textarea>
+            </div>
+            <div class="inp-class custom9">
+                <label for="check">I have read all the rules and regulations.</label>
+                <input type="checkbox" id="check" name="Checkbox">
+            </div>
+            <div class="inp-class-last">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <br><br><br>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
