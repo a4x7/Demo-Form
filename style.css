@@ -6,7 +6,6 @@
 body {
     background-image: radial-gradient(circle at top left, #FF7B00 10%, #FF8800 10%, #FF9500 20%, #FFA200 20%, #FFAA00 30%, #FFB700 30%, 
     #FFC300 40%, #FFD000 40%, #FFDD00 50%, #FFEA00 50%);
-    background-size: cover;
     background-repeat: no-repeat;
 }
 #heading {
@@ -52,7 +51,7 @@ input:hover {
 select {
     width: 20vw;
     height: 6vh;
-    font-size: 1rem;
+    font-size: 1.5vw;
     border-radius: 5px;
     border: 0.3vw solid black;
     transition: all 0.1s linear 0s;
@@ -91,7 +90,6 @@ textarea {
     border: 0.3vw solid black;
     border-radius: 5px;
     transition: all 0.1s linear 0s;
-    font-weight: 900;
     width: 20vw;
 }
 textarea:hover {
@@ -111,7 +109,7 @@ textarea:hover {
         font-size: 2.2vw;
     }
     input {
-        font-size: 2.2vw;
+        font-size: 1.7vw;
     }
     input[type="radio"] {
         width: 2vw;
@@ -125,7 +123,7 @@ textarea:hover {
         font-size: 5vw;
     }
     input {
-        font-size: 5vw;
+        font-size: 4.5vw;
         width: 40vw;
         border: 0.9vw solid black;
     }
@@ -137,12 +135,11 @@ textarea:hover {
     }
     select {
         width: 40vw;
-        font-size: 3vw;
+        font-size: 4.5vw;
         border: 0.9vw solid black;
     }
     textarea {
-        font-size: 5vw;
-        font-weight: 400;
+        font-size: 4.5vw;
         width: 40vw;
         border: 0.9vw solid black;
     }
@@ -155,10 +152,11 @@ textarea:hover {
         font-size: 6vw;
     }
 }
-
-
-
-
-
-
-
+@media (max-height: 350px) {
+    input {
+        height: 1.5rem;
+    }
+    select {
+        height: 1.5rem;
+    }
+}
