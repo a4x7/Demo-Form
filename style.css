@@ -114,7 +114,7 @@ textarea:hover {
         font-size: 2.2vw;
     }
     input[type="radio"] {
-        width: 2vw
+        width: 2vw;
     }
 }
 @media (orientation: portrait) {
@@ -133,7 +133,8 @@ textarea:hover {
         width: 20vw;
     }
     input[type="radio"] {
-        width: 4vw
+        width: 4vw;
+        border: 0.9vw solid black;
     }
     select {
         width: 40vw;
@@ -155,5 +156,6 @@ textarea:hover {
         font-size: 6vw;
     }
 }
+
 
 
