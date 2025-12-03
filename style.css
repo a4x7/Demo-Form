@@ -127,6 +127,7 @@ textarea:hover {
     input {
         font-size: 5vw;
         width: 40vw;
+        border: 0.9vw solid black;
     }
     input[type="submit"], input[type="reset"] {
         width: 20vw;
@@ -152,3 +153,4 @@ textarea:hover {
         font-size: 6vw;
     }
 }
+
