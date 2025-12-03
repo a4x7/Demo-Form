@@ -138,11 +138,13 @@ textarea:hover {
     select {
         width: 40vw;
         font-size: 3vw;
+        border: 0.9vw solid black;
     }
     textarea {
         font-size: 5vw;
         font-weight: 400;
         width: 40vw;
+        border: 0.9vw solid black;
     }
     form {
         width: 80vw;
@@ -153,4 +155,5 @@ textarea:hover {
         font-size: 6vw;
     }
 }
+
 
