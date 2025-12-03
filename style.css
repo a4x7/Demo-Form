@@ -50,7 +50,7 @@ input:hover {
     transform: scale(1.2);
 }
 select {
-    width: 10vw;
+    width: 20vw;
     height: 6vh;
     font-size: 1rem;
     border-radius: 5px;
@@ -87,13 +87,12 @@ input[type="radio"], input[type="checkbox"] {
 input[type="checkbox"] {
     width: 14vw;
 }
-textarea[placeholder="Enter your feedback"] {
-    font-weight: 900;
-}
 textarea {
     border: 0.3vw solid black;
     border-radius: 5px;
     transition: all 0.1s linear 0s;
+    font-weight: 900;
+    width: 20vw;
 }
 textarea:hover {
     scale: 1.2;
@@ -104,8 +103,52 @@ textarea:hover {
     text-align: center;
     margin: 0 1vw 0 1vw;
 }
-@media (max-width: 20rem), (max-height: 10rem) {
-    body {
-        display: none;
+@media (max-width: 1200px) {
+    .cls {
+        font-size: 2.4vw;
+    }
+    label {
+        font-size: 2.2vw;
+    }
+    input {
+        font-size: 2.2vw;
+    }
+    input[type="radio"] {
+        width: 2vw
+    }
+}
+@media (orientation: portrait) {
+    .cls {
+        font-size: 5vw;
+    }
+    label {
+        font-size: 5vw;
+    }
+    input {
+        font-size: 5vw;
+        width: 40vw;
+    }
+    input[type="submit"], input[type="reset"] {
+        width: 20vw;
+    }
+    input[type="radio"] {
+        width: 4vw
+    }
+    select {
+        width: 40vw;
+        font-size: 3vw;
+    }
+    textarea {
+        font-size: 5vw;
+        font-weight: 400;
+        width: 40vw;
+    }
+    form {
+        width: 80vw;
+        border: 0.9vw solid black;
+        box-shadow: 1.4vw 1.8vh black;
+    }
+    #heading {
+        font-size: 6vw;
     }
 }

@@ -98,6 +98,12 @@ form.addEventListener("submit", (event) => {
         form.submit();
     }
 });
+form.addEventListener("reset", () => {
+    let errorDIV = document.querySelectorAll(".cls");
+    errorDIV.forEach((div) => {
+        div.remove();
+    });
+});
 
 for(let i of list1) {
     let para = false;
